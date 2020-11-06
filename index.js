@@ -33,7 +33,7 @@ function appendCommentToDOM(container, comment, isPrepend) {
 }
 
 function getCommentsAPI(siteKey, before, cb) {
-    let url = `http://tzutzu858.tw/json/api_comments.php?site_key=${siteKey}`
+    let url = `https://tzutzu858.tw/json/api_comments.php?site_key=${siteKey}`
     if (before) {
         url += '&before=' + before
     }
@@ -94,7 +94,7 @@ $(document).ready(() => {
 
         $.ajax({
             type: 'POST',
-            url: 'http://tzutzu858.tw/json/api_add_comments.php',
+            url: 'https://tzutzu858.tw/json/api_add_comments.php',
             data: newCommentData
         }).done(function (data) {
             if (!data.ok) {
