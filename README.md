@@ -18,7 +18,7 @@ https://tzutzu858.github.io/API-Server-practice-SPA/<br>
 3. [關於AWS-EC2-設定HTTPS](https://medium.com/@justinlee_78563/%E9%97%9C%E6%96%BCaws-ec2-%E8%A8%AD%E5%AE%9Ahttps-17c95bc30d4e)<br>
 
 ## API
-http://tzutzu858.tw/json/api_comments.php : 列出所有留言 API<br>
+https://tzutzu858.tw/json/api_comments.php : 列出所有留言 API<br>
 拿資料的時候 query string 帶上 site_key 也可以多帶上 before 來查看 before 前五筆資料<br>
 資料結構：<br>
 ```
@@ -33,7 +33,7 @@ http://tzutzu858.tw/json/api_comments.php : 列出所有留言 API<br>
 <br>
 <br>
 
-http://tzutzu858.tw/json/api_add_comments.php : 新增留言 API<br>
+https://tzutzu858.tw/json/api_add_comments.php : 新增留言 API<br>
 POST 帶上 site_key、nickname、content。<br>
 資料結構：<br>
 
